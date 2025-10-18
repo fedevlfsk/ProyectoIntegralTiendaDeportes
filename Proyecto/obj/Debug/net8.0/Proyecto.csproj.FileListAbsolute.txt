@@ -1,0 +1,14 @@
+C:\Users\feder\Desktop\Proyecto\Proyecto\obj\Debug\net8.0\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\feder\Desktop\Proyecto\Proyecto\obj\Debug\net8.0\Proyecto.AssemblyInfoInputs.cache
+C:\Users\feder\Desktop\Proyecto\Proyecto\obj\Debug\net8.0\Proyecto.AssemblyInfo.cs
+C:\Users\feder\Desktop\Proyecto\Proyecto\obj\Debug\net8.0\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\feder\Desktop\Proyecto\Proyecto\bin\Debug\net8.0\Proyecto.exe
+C:\Users\feder\Desktop\Proyecto\Proyecto\bin\Debug\net8.0\Proyecto.deps.json
+C:\Users\feder\Desktop\Proyecto\Proyecto\bin\Debug\net8.0\Proyecto.runtimeconfig.json
+C:\Users\feder\Desktop\Proyecto\Proyecto\bin\Debug\net8.0\Proyecto.dll
+C:\Users\feder\Desktop\Proyecto\Proyecto\bin\Debug\net8.0\Proyecto.pdb
+C:\Users\feder\Desktop\Proyecto\Proyecto\obj\Debug\net8.0\Proyecto.dll
+C:\Users\feder\Desktop\Proyecto\Proyecto\obj\Debug\net8.0\refint\Proyecto.dll
+C:\Users\feder\Desktop\Proyecto\Proyecto\obj\Debug\net8.0\Proyecto.pdb
+C:\Users\feder\Desktop\Proyecto\Proyecto\obj\Debug\net8.0\Proyecto.genruntimeconfig.cache
+C:\Users\feder\Desktop\Proyecto\Proyecto\obj\Debug\net8.0\ref\Proyecto.dll
