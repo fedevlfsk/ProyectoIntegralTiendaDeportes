@@ -24,7 +24,6 @@ namespace GestorDeVentas
             new Producto(9, "Botines Puma Ultra", "39, 40, 41, 42, 43", 120000, 239000, 8),
             new Producto(10, "Gorra Under Armour", "unico", 18000, 27000, 22)
         };
-
         public static void ProductoMenu()
         {
             int opcion = 0;
@@ -111,14 +110,15 @@ namespace GestorDeVentas
 
             Console.WriteLine("Ingrese el nombre del producto:");
             nuevoProducto.Nombre = Console.ReadLine();
+
             Console.WriteLine("Ingrese la descripcion:");
             nuevoProducto.Descripcion = Console.ReadLine();
-            Console.WriteLine("Ingrese el costo:");
-            nuevoProducto.Costo = double.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese el precio de venta:");
-            nuevoProducto.Precio = double.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese el stock:");
-            nuevoProducto.Stock = int.Parse(Console.ReadLine());
+
+            nuevoProducto.Costo = AccesoVendedor.LeerDouble("Ingrese el costo:");
+
+            nuevoProducto.Precio = AccesoVendedor.LeerEntero("Ingrese el precio de venta:");
+
+            nuevoProducto.Stock = AccesoVendedor.LeerEntero("Ingrese el stock:");
 
             productos.Add(nuevoProducto);
             Console.WriteLine("Producto agregado.\n");

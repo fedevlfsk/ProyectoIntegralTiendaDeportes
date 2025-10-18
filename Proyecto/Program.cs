@@ -8,38 +8,40 @@ namespace GestorDeVentas
         {
             Console.Title = "GESTOR DE VENTAS";
             int opcion = 0;
-
+            AccesoVendedor.IngresoVendedor();
             do
             {
-                AccesoVendedor.IngresoVendedor();
+                    Console.Write("Seleccione una opción: ");
+                    string entrada = Console.ReadLine();
+                    Console.Clear();
 
-                Console.Write("Seleccione una opción: ");
-                string entrada = Console.ReadLine();
-                Console.Clear();
-
-                if (int.TryParse(entrada, out opcion))
-                {
-                    switch (opcion)
+                    if (int.TryParse(entrada, out opcion))
                     {
-                        case 1:
-                            break;
-                        case 2:
-                            ModuloProductos.ProductoMenu();
-                            break;
-                        case 3:
-                            break;
-                        case 4:
-                            Console.Write("Saliendo del programa...");
-                            break;
-                        default:
-                            Console.WriteLine("La opción no es válida. Ingrese otra opción.");
-                            break;
+                        switch (opcion)
+                        {
+                            case 1:
+                                break;
+                            case 2:
+                                ModuloProductos.ProductoMenu();
+                                break;
+                            case 3:
+                                break;
+                            case 4:
+                                Console.Write("Saliendo del programa...");
+                                break;
+                            default:
+                                Console.WriteLine("La opción no es válida. Ingrese otra opción.");
+                                break;
+                        }
                     }
-                }
-                else
-                {
-                    Console.WriteLine("Ingrese un número válido.");
-                }
+                    else
+                    {
+                        Console.WriteLine("Ingrese un número válido.");
+                    }
+                    if (opcion != 4)
+                    AccesoVendedor.ImprimirMenu(); //  muestra el menú sin pedir el nombre
+
+
             } while (opcion != 4);
 
             Console.ReadKey();

@@ -1,10 +1,10 @@
 ﻿using System;
+using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-using System;
 
 namespace GestorDeVentas
 {
@@ -50,6 +50,33 @@ namespace GestorDeVentas
             Console.WriteLine("3. Clientes");
             Console.WriteLine("4. Salir");
         }
+
+        // Modulo TryParse para Double
+        public static double LeerDouble(string mensaje)
+        {
+            double valor;
+            Console.WriteLine(mensaje);
+            while (!double.TryParse(Console.ReadLine(), out valor))
+            {
+                Console.WriteLine("Entrada inválida. Intente de nuevo:");
+            }
+            return valor;
+        }
+
+        // Modulo TryParse para Enteros
+        public static int LeerEntero(string mensaje)
+        {
+            int valor;
+            Console.WriteLine(mensaje);
+            while (!int.TryParse(Console.ReadLine(), out valor))
+            {
+                Console.WriteLine("Entrada inválida. Intente de nuevo:");
+            }
+            return valor;
+        }
+
+
     }
 }
+
 
