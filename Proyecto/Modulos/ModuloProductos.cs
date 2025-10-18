@@ -11,7 +11,7 @@ namespace GestorDeVentas
 {
     public static class ModuloProductos
     {
-        static List<Producto> productos = new List<Producto>()
+        public static List<Producto> productos = new List<Producto>()
         {
             new Producto(1, "Zapatillas Running Nike Air", "39, 40, 41, 42, 43", 98000 , 170000 , 15),
             new Producto(2, "Remera Adidas", "L, XL", 56000, 97000, 30),

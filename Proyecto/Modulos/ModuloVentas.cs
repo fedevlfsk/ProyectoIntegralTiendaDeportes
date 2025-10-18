@@ -87,12 +87,9 @@ namespace GestorDeVentas
                 int idProducto = AccesoVendedor.LeerEntero("Ingrese el ID del producto: ");
                 int cantidad = AccesoVendedor.LeerEntero("Ingrese la cantidad: ");
 
-                var campo = typeof(ModuloProductos)
-                    .GetField("productos", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Static);
+                // Accedemos directamente a la lista de productos
+                Producto producto = ModuloProductos.productos.FirstOrDefault(p => p.Id == idProducto);
 
-                var lista = (List<Producto>)campo.GetValue(null);
-
-                Producto producto = lista.FirstOrDefault(p => p.Id == idProducto);
                 if (producto.Nombre == null)
                 {
                     Console.WriteLine("Producto no encontrado.");
@@ -105,8 +102,9 @@ namespace GestorDeVentas
                     continue;
                 }
 
+                // Restamos el stock directamente
                 producto.Stock -= cantidad;
-                lista[lista.FindIndex(p => p.Id == producto.Id)] = producto;
+                ModuloProductos.productos[ModuloProductos.productos.FindIndex(p => p.Id == producto.Id)] = producto;
 
                 detalles.Add((producto, cantidad));
 
