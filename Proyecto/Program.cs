@@ -20,6 +20,7 @@ namespace GestorDeVentas
                         switch (opcion)
                         {
                             case 1:
+                                ModuloVentas.VentaMenu();
                                 break;
                             case 2:
                                 ModuloProductos.ProductoMenu();
