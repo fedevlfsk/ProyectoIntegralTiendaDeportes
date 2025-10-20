@@ -21,7 +21,6 @@ C:\Users\feder\Desktop\ProyectoIntegralTiendaDeportes\Proyecto\obj\Debug\net8.0\
 C:\Users\feder\Desktop\ProyectoIntegralTiendaDeportes\Proyecto\obj\Debug\net8.0\Proyecto.AssemblyInfoInputs.cache
 C:\Users\feder\Desktop\ProyectoIntegralTiendaDeportes\Proyecto\obj\Debug\net8.0\Proyecto.AssemblyInfo.cs
 C:\Users\feder\Desktop\ProyectoIntegralTiendaDeportes\Proyecto\obj\Debug\net8.0\Proyecto.csproj.CoreCompileInputs.cache
-C:\Users\feder\Desktop\ProyectoIntegralTiendaDeportes\Proyecto\obj\Debug\net8.0\Proyecto.sourcelink.json
 C:\Users\feder\Desktop\ProyectoIntegralTiendaDeportes\Proyecto\obj\Debug\net8.0\Proyecto.dll
 C:\Users\feder\Desktop\ProyectoIntegralTiendaDeportes\Proyecto\obj\Debug\net8.0\refint\Proyecto.dll
 C:\Users\feder\Desktop\ProyectoIntegralTiendaDeportes\Proyecto\obj\Debug\net8.0\Proyecto.pdb

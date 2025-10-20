@@ -37,12 +37,15 @@ namespace GestorDeVentas
             int opcion = 0;
             do
             {
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("\n       MÓDULO DE VENTAS       ");
                 Console.WriteLine("--------------------------------");
                 Console.WriteLine("1. Registrar nueva venta");
                 Console.WriteLine("2. Ver historial de ventas");
                 Console.WriteLine("3. Buscar venta por cliente");
                 Console.WriteLine("4. Volver");
+                Console.ResetColor();
+
 
                 Console.Write("\nSeleccione una opción: ");
                 string entrada = Console.ReadLine();

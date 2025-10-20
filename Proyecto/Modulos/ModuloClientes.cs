@@ -23,12 +23,13 @@ namespace GestorDeVentas
         };
 
         // Menú principal de clientes
-        public static void Cliente()
+        public static void ClientesMenu()
         {
             int opcion = 0;
 
             do
             {
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("       Clientes      ");
                 Console.WriteLine(" --------------------");
                 Console.WriteLine(" 1. Ver clientes");
@@ -36,6 +37,7 @@ namespace GestorDeVentas
                 Console.WriteLine(" 3. Agregar cliente");
                 Console.WriteLine(" 4. Modificar cliente");
                 Console.WriteLine(" 5. Volver");
+                Console.ResetColor();
 
                 Console.Write("\n Seleccione una opción: ");
                 string entrada = Console.ReadLine();
